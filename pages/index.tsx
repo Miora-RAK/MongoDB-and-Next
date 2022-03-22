@@ -47,6 +47,9 @@ const Games: React.FC<GamesProps> = ({ games }) => {
               </Link>
             );
           })}
+          {/* {games.map((game: any, index: any) => {
+            !game.cover ? "no cover" : <Image src={`${game.cover.url}`} />;
+          })} */}
         </div>
       </main>
 
